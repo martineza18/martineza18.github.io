@@ -1,98 +1,19 @@
-/* Navbar style */
-.nav.navbar-nav li a {
-  color: white;
-  font-size: 1.25em;
+li {
+  float: left;
+  padding-right: 40px
 }
 
-.navbar-inverse .navbar-brand {
-  color: white;
-  font-size: 2em;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #FFE5B4;
-    color: #404040;
-}
-
-nav.navbar {
-  background-color: #C13828;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.navbar-static-top {
-  margin-top: 25px;
-  position: fixed;
-  width: 100%;
-}
-
-
-/* Main div style */
-div.container {
-  background-color: #d9d9d9;
-  margin-top: -25px;
-  padding: 0px;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-/* About section style */
-.pic {
-  margin-top: -100px;
-}
-
-.summary {
-  margin-top: -530px;
-  color: white;
-  padding: 15px;
-  background-color: rgba(172,172,172,0.7)
-}
-
-/* Portfolio section style */
-.port-head {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.eg {
-  margin-top: 20px;
-}
-
-.port-page {
-  text-align: center;
-}
-
-/* Contact section style */
-.contact {
-  background-color: black;
-  margin: 40px 0px 0px 0px;
-  color: white;
-}
-
-.con-head {
-  text-align: center;
-}
-
-.fillout {
-  background-color: black;
-  color: white;
-  margin: 0px;
-  padding: 20px 20px 60px 20px;
-}
-
-.field {
-  margin-bottom: 20px;
-  margin-top: 10px;
-  color: black;
-}
-
-.fa {
-  padding: 25px;
-  width: auto;
-  text-align: center;
-  color: white;
-}
-
-.icons {
-  font-size: 50px;
+ul {
+  list-style-type: none;
+  padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.navigationlinks a {
+  text-decoration: none;
+}
+
+p {
+  float: left;
+  padding-left: 40px;
 }
